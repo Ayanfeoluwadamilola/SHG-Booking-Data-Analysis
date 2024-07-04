@@ -1,7 +1,7 @@
 # SHG-Booking-Data-Analysis
 An analysis on the SHG booking data.
 
-Objectives
+**Objectives**
 
 The renowned hospitality company Splendour Hotel Group (SHG) aims to improve visitor experiences and streamline corporate processes by utilizing data-driven insights. By diving into the data, we aim to extract meaningful insights that will not only inform operational improvements but also contribute to SHG's overall success in delivering unparalleled hospitality.
 
@@ -44,7 +44,8 @@ The dataset consists of 119,390 rows and 17 columns, containing the following in
 •	Revenue Loss: Loss in revenue if the booking was cancelled (negative value if the booking wasn't cancelled).
 
 
-Data Cleaning and Preparation
+**Data Cleaning and Preparation**
+
 Once the data was downloaded and imported into Excel, it was cleaned and prepared for analysis. A copy of the original data was stored in Google Drive to allow for easy access. Firstly, a new version of the data was created in case there was a need to drop some columns or make other changes.
 In the newly created worksheet, the following steps were taken:
 
@@ -143,3 +144,5 @@ Cancellation Management:
 Continuous Data Monitoring:
 
 •	Implement regular data analysis and monitoring to capture evolving booking patterns, customer preferences, and market trends. This proactive approach will facilitate timely adjustments in strategies and operations.
+
+
