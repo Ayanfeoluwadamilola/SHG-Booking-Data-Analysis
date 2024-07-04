@@ -14,33 +14,53 @@ The dataset consists of 119,390 rows and 17 columns, containing the following in
 •	Hotel: Type or name of the hotel within the Splendour Hotel Group.
 
 •	Booking Date: Date when the booking was made.
+
 •	Arrival Date: Date when the guests are scheduled to arrive.
+
 •	Lead Time: Number of days between the booking date and arrival date.
+
 •	Nights: Number of nights the guests are booked to stay.
+
 •	Guests: Number of guests included in the booking.
+
 •	Distribution Channel: The channel through which the booking was made (e.g., Direct, Online Travel Agent, Offline Travel Agent).
+
 •	Customer Type: Type of customer making the booking (e.g., Transient, Corporate).
+
 •	Country: Country of origin of the guests.
+
 •	Deposit Type: Whether a deposit was made for the booking (e.g., No Deposit, Deposit).
+
 •	Avg Daily Rate: Average daily rate for the booking.
+
 •	Status: Status of the booking (e.g., Check-Out, Cancelled).
+
 •	Status Update: Date of the last status update for the booking.
+
 •	Cancelled (0/1): Binary indicator of whether the booking was cancelled (1 if cancelled, 0 if not cancelled).
+
 •	Revenue: Revenue generated from the booking.
+
 •	Revenue Loss: Loss in revenue if the booking was cancelled (negative value if the booking wasn't cancelled).
 
 
 Data Cleaning and Preparation
-Once the data was downloaded and imported into Excel, it was cleaned and prepared for analysis. A copy of the original data was stored in Google Drive to allow for easy access. Firstly, a new version of the data was created in case there was a need to drop some columns or make other changes. In the newly created worksheet, the following steps were taken:
+Once the data was downloaded and imported into Excel, it was cleaned and prepared for analysis. A copy of the original data was stored in Google Drive to allow for easy access. Firstly, a new version of the data was created in case there was a need to drop some columns or make other changes.
+In the newly created worksheet, the following steps were taken:
+
 •	Missing values: A thorough check for blanks in all the columns was carried out. Missing values in the country column were replaced with ‘N/A’. The distribution channel column had five rows with missing values, which were replaced with the most frequent value.
+
 •	Data types: All columns were in the format needed for analysis.
+
 •	Outliers: The guests column had some outlier values, with as high as 55 guests per booking. Such values contributed to less than 1% of the dataset.
+
 •	Categorical variables: These were examined for errors in spellings and other unexpected values. No errors were found.
+
 •	Data extraction: For clearer analysis, the month and day of the week were extracted from the booking dates, arrival dates, and status update columns.
 
 
 Data Exploration
-With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
+With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels. The dashboard allows for real time filtering and slicers were added to aid exploration.
 
 
 Insights
@@ -48,8 +68,11 @@ Insights
 Booking Patterns
 
 •	There were a total of 119,390 bookings in the last five years, with 2016 having the highest number of bookings. A dip was seen in 2017, but this is inconclusive as the data for 2017 only covers eight months.
+
 •	January and February saw the greatest number of bookings, which gradually dipped until June. There was no specific pattern until a noticeable increase in October, followed by a dip until December.
+
 •	The first three months and the last three months of the year had the most bookings and the longest average lead times, suggesting these were premeditated trips targeting holidays in the summer seasons.
+
 •	The lead time was highest on average among bookings made via Offline and Online Travel Agents at 136 days and 108 days respectively, and lowest for Corporate channels at 45 days. Contract customers had the most lead time averaging 143 days, while Groups had an average lead time of 55 days, suggesting that contract customers may take more time planning their stays than groups.
 
 Customer Behavior Analysis
