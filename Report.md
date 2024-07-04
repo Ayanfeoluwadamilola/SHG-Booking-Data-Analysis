@@ -35,7 +35,8 @@ Once the data was downloaded and imported into Excel, it was cleaned and prepare
 - **Data extraction:** For clearer analysis, the month and day of the week were extracted from the booking dates, arrival dates, and status update columns.
 
 ## Data Exploration
-With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
+With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. Customer behavior and revenue optimization was also investigated to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
+Dynamic PowerBi dashboards was built for anlysis of each topic and slicers were added on some of them for ease of filtering.
 
 
 ## Insights
