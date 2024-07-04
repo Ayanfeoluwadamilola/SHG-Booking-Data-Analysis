@@ -1,7 +1,9 @@
 # SHG-Booking-Data-Analysis
 An analysis on the SHG booking data.
 Objectives
+
 The renowned hospitality company Splendour Hotel Group (SHG) aims to improve visitor experiences and streamline corporate processes by utilizing data-driven insights. By diving into the data, we aim to extract meaningful insights that will not only inform operational improvements but also contribute to SHG's overall success in delivering unparalleled hospitality.
+
 Dataset
 The dataset consists of 119,390 rows and 17 columns, containing the following information:
 •	Booking ID: Unique identifier for each booking.
