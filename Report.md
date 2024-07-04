@@ -49,6 +49,9 @@ With the data cleaned and ready for use, the next step was exploration and analy
 - The lead time was highest on average among bookings made via Offline and Online Travel Agents at 136 days and 108 days respectively, and lowest for Corporate channels at 45 days. Contract customers had the most lead time averaging 143 days, while Groups had an average lead time of 55 days, suggesting that contract customers may take more time planning their stays than groups.
 
 ### Customer Behavior Analysis
+
+![Customer Behaviour Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Customer%20Behaviour%20Analysis.png?raw=true)
+
 - Online Travel Agents contributed to over half of the total bookings, with 74,000 bookings and the highest average daily rate at $109. Direct bookings had an average daily rate of $107 but accounted for just 15,000 bookings.
 - Portugal, the United Kingdom, and France were the top three countries of origin for customers. Portugal led with 49,000 bookings, contributing about $9.0M to revenue. The United Kingdom and France contributed $4.2M and $3.1M respectively, with 12,000 and 10,000 bookings each.
 
