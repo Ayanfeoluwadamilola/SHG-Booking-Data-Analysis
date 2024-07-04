@@ -37,11 +37,12 @@ Once the data was downloaded and imported into Excel, it was cleaned and prepare
 ## Data Exploration
 With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
 
-### Booking Analysis
-![Booking Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Booking%20Patterns.png?raw=true)
 
 ## Insights
 ### Booking Patterns
+
+![Booking Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Booking%20Patterns.png?raw=true)
+
 - There were a total of 119,390 bookings in the last five years, with 2016 having the highest number of bookings. A dip was seen in 2017, but this is inconclusive as the data for 2017 only covers eight months.
 - January and February saw the greatest number of bookings, which gradually dipped until June. There was no specific pattern until a noticeable increase in October, followed by a dip until December.
 - The first three months and the last three months of the year had the most bookings and the longest average lead times, suggesting these were premeditated trips targeting holidays in the summer seasons.
