@@ -73,12 +73,17 @@ With the data cleaned and ready for use, the next step was exploration and analy
 - More cancellations occurred where there was no deposit, representing about 24,000 of the total cancellations. The least cancellations were seen with refundable deposits, at just 36. Non-refundable deposits contributed $3.60M to the revenue, suggesting a potential area for optimization.
 
 ### Operational Efficiency
+
+![Operational Efficiency](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Operational%20Efficiency.png?raw=true)
+
 - A total of 234,988 guests were served, with an average stay of approximately three nights. Bookings made by Offline Travel Agents had an average stay of four nights, while Online Travel Agents had an average of three.
 - Contract customers averaged five nights per stay, while other customer types averaged three.
 - The average number of guests per booking was approximately two, making up 69% of the distribution. Large groups were rare outliers.
 - Online Travel Agents accounted for 65% of the total guests, while the corporate channel made up just 4%.
 - Fridays were the most popular arrival day, and most check-outs occurred on Sundays, indicating weekend stays are popular.
 - August had the most check-outs, suggesting the end of the summer season. This could advise more staffing and resource allocations during these periods for optimal efficiency.
+
+![Operational Efficiency](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Operational%20Efficiency%202.png?raw=true)
 
 ### Analysis of Corporate Bookings
 - Corporate bookings were the least in number and had the least average daily rate at $69. This is significantly lower than other channels like Online Travel Agents ($109) and Direct bookings ($107).
@@ -88,6 +93,8 @@ With the data cleaned and ready for use, the next step was exploration and analy
 - Most customers originated from Portugal, followed by the United Kingdom, France, Spain, and Germany. Portugal contributed 90,000 guests, while the United Kingdom, France, and Spain contributed 25,000, 22,000, and 18,000 guests respectively.
 - These countries were the greatest revenue contributors but also had high cancellation rates. Enforcing non-refundable deposits could help mitigate revenue loss from cancellations.
 - The average daily rate for these countries was typical, with Portugal having the lowest at $92. No definite pattern was observed between country of origin and the average number of nights spent.
+
+![Geographic Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Geographic%20Analysis.png?raw=true)
 
 ### Time-to-Event Analysis
 - Lead times were classified into two-month ranges to examine variations. Lead times between 0-2 months and 2-4 months were associated with the highest number of bookings and revenue. However, these lead times also had the highest cancellations and revenue loss, suggesting the relationships might be cause and effect rather than truly significant.
