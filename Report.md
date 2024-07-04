@@ -1,7 +1,7 @@
 # SHG-Booking-Data-Analysis
 An analysis on the SHG booking data.
 
-### Report on SHG Booking Data
+# Report on SHG Booking Data
 
 ## Objectives
 The renowned hospitality company Splendour Hotel Group (SHG) aims to improve visitor experiences and streamline corporate processes by utilizing data-driven insights. By diving into the data, we aim to extract meaningful insights that will not only inform operational improvements but also contribute to SHG's overall success in delivering unparalleled hospitality.
@@ -36,6 +36,9 @@ Once the data was downloaded and imported into Excel, it was cleaned and prepare
 
 ## Data Exploration
 With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
+
+### Booking Analysis
+![Booking Analysis Screenshot](images/booking_analysis.png)
 
 ## Insights
 ### Booking Patterns
@@ -102,5 +105,3 @@ With the data cleaned and ready for use, the next step was exploration and analy
 
 ### Continuous Data Monitoring:
 - **Implement regular data analysis and monitoring** to capture evolving booking patterns, customer preferences, and market trends. This proactive approach will facilitate timely adjustments in strategies and operations.
-
-
