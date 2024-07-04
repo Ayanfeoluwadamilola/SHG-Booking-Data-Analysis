@@ -48,7 +48,7 @@ With the data cleaned and ready for use, the next step was exploration and analy
 - The first three months and the last three months of the year had the most bookings and the longest average lead times, suggesting these were premeditated trips targeting holidays in the summer seasons.
 - The lead time was highest on average among bookings made via Offline and Online Travel Agents at 136 days and 108 days respectively, and lowest for Corporate channels at 45 days. Contract customers had the most lead time averaging 143 days, while Groups had an average lead time of 55 days, suggesting that contract customers may take more time planning their stays than groups.
 
-### Customer Behavior Analysis
+### Customer Behaviour Analysis
 
 ![Customer Behaviour Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Customer%20Behaviour%20Analysis.png?raw=true)
 
@@ -56,15 +56,19 @@ With the data cleaned and ready for use, the next step was exploration and analy
 - Portugal, the United Kingdom, and France were the top three countries of origin for customers. Portugal led with 49,000 bookings, contributing about $9.0M to revenue. The United Kingdom and France contributed $4.2M and $3.1M respectively, with 12,000 and 10,000 bookings each.
 
 ### Revenue Optimization
+
+![Revenue Optimization](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Revenue%20Optimization.png?raw=true)
+
 - The total revenue generated was $29.60M, with $9.0M from Portugal. Transient customers contributed $22.70M, over 75% of the total revenue, making them primary drivers.
 - By distribution channel, Online Travel Agents contributed $17.3M to the revenue, aligning with their high booking volume. The average daily rate was $109 for Online Travel Agents.
 - Transient customers had a higher average daily rate at $107, explaining their significant revenue contribution. Most bookings and revenue from Online Travel Agents were driven by Transient customers.
 
-### Cancellation Analysis
+### Cancellation Analysis and Impact of Deposit Types
+
+![Cancellation and Deposit Analysis](https://github.com/Ayanfeoluwadamilola/SHG-Booking-Data-Analysis/blob/main/Cancellation%20and%20Deposit%20Analysis.png?raw=true)
+
 - The total number of cancelled bookings was 44,224, with 1,207 no-shows.
 - Revenue lost from cancellations was $13.12M. Transient customers and Online Travel Agents, the biggest revenue drivers, also contributed significantly to cancellations and revenue loss.
-
-### Impact of Deposit Types
 - Transient customers contributed more to non-refundable deposits, hence the most to revenue from cancelled bookings.
 - More cancellations occurred where there was no deposit, representing about 24,000 of the total cancellations. The least cancellations were seen with refundable deposits, at just 36. Non-refundable deposits contributed $3.60M to the revenue, suggesting a potential area for optimization.
 
