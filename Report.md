@@ -38,7 +38,7 @@ Once the data was downloaded and imported into Excel, it was cleaned and prepare
 With the data cleaned and ready for use, the next step was exploration and analysis. The exploratory data analysis started by looking into the booking patterns to identify seasons with noticeable booking activity and to examine the impact of booking channels and customer type on lead time. We also investigated customer behavior and revenue optimization to identify overall revenue trends, significant contributors to revenue, and the impact of average daily rates across booking channels.
 
 ### Booking Analysis
-![Booking Analysis Screenshot](images/booking_analysis.png)
+![Booking Analysis](Booking Patterns.png)
 
 ## Insights
 ### Booking Patterns
